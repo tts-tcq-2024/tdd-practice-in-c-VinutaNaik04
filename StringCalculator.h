@@ -1,7 +1,7 @@
 
 int add(const char* input)
 {
-  if (input==NULL)
+  if (input=='\0')
   {
   return 0;
   } 
