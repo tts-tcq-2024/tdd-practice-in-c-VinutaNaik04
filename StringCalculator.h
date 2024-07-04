@@ -1,5 +1,10 @@
 
 int add(const char* input)
 {
-  return -1;
+  if (input=NULL)
+  {
+  return 0;
+  }
+  else 
+    return -1;
 }
